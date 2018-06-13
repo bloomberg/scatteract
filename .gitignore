@@ -1,0 +1,6 @@
+# Python detritus
+.py[co]
+__pycache__/
+
+# Scatteract logs
+scatteract.log
