@@ -42,8 +42,9 @@ color_subtick_list = ['b','g','r','k', 'k', 'k', '0.7', '0.85']
 
 direction_ticks = ['in','out','inout']
 
-font_list = matplotlib.font_manager.get_fontconfig_fonts().keys()
- 
+font_list = matplotlib.font_manager.get_fontconfig_fonts()
+font_list = [i for i in font_list] 
+
 
 dpi_min = 85
 dpi_max = 250
